@@ -3,7 +3,11 @@ function setup() {
 }
 
 function draw() {
-  background(220);
-  text('The value of PI is', 10,10)
-  text(PI, 160,200)
+  background("black");
+  fill("red")
+  textSize(30)
+  text("The value of PI is ",10,30)
+  textSize(50)
+  fill("cyan")
+  text(PI,0,200)
 }
